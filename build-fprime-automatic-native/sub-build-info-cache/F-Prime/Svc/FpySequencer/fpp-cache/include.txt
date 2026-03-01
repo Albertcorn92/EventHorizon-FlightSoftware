@@ -1,0 +1,6 @@
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/FpySequencer/FpySequencerCommands.fppi
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/FpySequencer/FpySequencerDirectives.fppi
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/FpySequencer/FpySequencerEvents.fppi
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/FpySequencer/FpySequencerParams.fppi
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/FpySequencer/FpySequencerStateMachine.fppi
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/FpySequencer/FpySequencerTelemetry.fppi

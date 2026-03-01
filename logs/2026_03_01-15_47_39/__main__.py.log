@@ -1,0 +1,21 @@
+[2026-03-01 15:47:40,447] [INFO] root: Logging system initialized!
+[2026-03-01 15:47:40,458] [INFO] transport: Outgoing connecting to: ipc:///tmp/fprime-server-in
+[2026-03-01 15:47:40,459] [INFO] transport: Incoming connecting to: ipc:///tmp/fprime-server-out
+[2026-03-01 15:47:51,194] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:47:51] code 400, message Bad request version ('\x04\x00\x02\x00i¤¥ö\x00\x02Ý±\x00\x00\x00\x00\x04\x000\x02\x00\x02\x00i¤¥ö\x00\x02Ý³\x00\x00\x00\x00\x04\x000\x01\x00\x02\x00i¤¥ö\x00\x02Ý³\x00\x00\x00\x00\x04\x000\x00\x00\x02\x00i¤¥ö\x00\x02Ý´\x00\x00\x00')
+[2026-03-01 15:47:52,197] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:47:52] code 400, message Bad request version ('\x00\x00\x10\x01')
+[2026-03-01 15:47:53,203] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:47:53] code 400, message Bad request version ('\x00\x02\x00i¤¥ø\x00\x03\x01\x05A\x00\x00\x00\x10\x01')
+[2026-03-01 15:47:55,208] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:47:55] code 400, message Bad request version ('\x00\x02\x00i¤¥ú\x00\x03"\x95Ap\x00\x01\x10\x01')
+[2026-03-01 15:47:56,213] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:47:56] code 400, message Bad request syntax ("\x04B\x05\x05\x18\x00\x00\x01À\x07\x01~\x00\x01\x10\x00P\x00\x00\x02\x00i¤¥ü\x00\x02'X?\x00\x00\x00\x10\x00P\x01\x00\x02\x00i¤¥ü\x00\x02'gF\x87\x83\x9f\x10\x00P\x02\x00\x02\x00i¤¥ü\x00\x02'kÆYÎ=\x10\x00P\x03\x00\x02\x00i¤¥ü\x00\x02'n@S×")
+[2026-03-01 15:47:57,217] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:47:57] code 400, message Bad request version ('\x00\x02\x00i¤¥ü\x00\x03?ÑA@\x00\x00\x10\x01')
+[2026-03-01 15:47:59,225] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:47:59] code 400, message Bad request version ('\x00\x02\x00i¤¥þ\x00\x03W+A©²m\x10\x01')
+[2026-03-01 15:48:00,226] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:00] code 400, message Bad request version ('\x00\x02\x00i¤¥ÿ\x00\x03móAÝÈ=\x10\x01')
+[2026-03-01 15:48:02,233] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:02] code 400, message Bad request version ('±AP\x00\x00\x10\x01')
+[2026-03-01 15:48:04,239] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:04] code 400, message Bad request syntax ('\x04B')
+[2026-03-01 15:48:05,244] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:05] code 400, message Bad request version ('\x00\x02\x00i¤¦\x04\x00\x03¤E@à\x00\x00\x10\x01')
+[2026-03-01 15:48:06,247] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:06] code 400, message Bad request version ('AP\x00\x00\x10\x01')
+[2026-03-01 15:48:07,250] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:07] code 400, message Bad request version ('\x00\x02\x00i¤¦\x06\x00\x03ÂkA¸\x00\x00\x10\x01')
+[2026-03-01 15:48:08,256] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:08] code 400, message Bad request version ('\x10\x00P\x03\x00\x02\x00i¤¦\x08\x00\x02%¯?\x83×')
+[2026-03-01 15:48:10,269] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:10] code 400, message Bad request version ('\x00\x03÷¯AØ\x00\x01\x10\x01')
+[2026-03-01 15:48:11,273] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:11] code 400, message Bad request syntax ('\x04B\x10\x10\x18\x00\x00\x01À\x15\x01¤\x00\x01\x10\x00P\x00\x00\x02\x00i¤¦')
+[2026-03-01 15:48:12,275] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:12] code 400, message Bad request version ('\x00\x04(\x92AP\x00\x00\x10\x01')
+[2026-03-01 15:48:13,280] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:48:13] code 400, message Bad request version ('\x00\x040M@À\x00\x00\x10\x01')

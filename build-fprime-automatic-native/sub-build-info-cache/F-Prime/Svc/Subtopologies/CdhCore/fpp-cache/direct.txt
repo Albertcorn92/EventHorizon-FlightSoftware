@@ -1,0 +1,14 @@
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/Fpp/ToCpp.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/Svc/Subtopologies/CdhCore/CdhCoreConfig/CdhCoreConfig.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/Svc/Subtopologies/CdhCore/CdhCoreConfig/CdhCoreFatalHandlerConfig.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/Svc/Subtopologies/CdhCore/CdhCoreConfig/CdhCoreTlmConfig.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/ComCfg.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/DpCfg.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/FpConstants.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Dp/Dp.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/CmdDispatcher/CmdDispatcher.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/EventManager/EventManager.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/Health/Health.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/PassiveConsoleTextLogger/PassiveConsoleTextLogger.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/Version/Version.fpp

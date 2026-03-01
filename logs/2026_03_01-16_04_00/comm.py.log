@@ -1,0 +1,9 @@
+[2026-03-01 16:04:00,155] [INFO] root: Logging system initialized!
+[2026-03-01 16:04:00,157] [INFO] comm: Starting uplinker/downlinker connecting to FSW using ip with space-packet-space-data-link
+[2026-03-01 16:04:00,157] [INFO] udp_handler: Server connected to 127.0.0.1:5050
+[2026-03-01 16:04:00,158] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
+[2026-03-01 16:04:00,662] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
+[2026-03-01 16:04:03,292] [INFO] tcp_handler: Server connected to 127.0.0.1:5050
+[2026-03-01 16:04:03,692] [WARNING] tcp_handler: Read failure attempting reconnection. ConnectionResetError: [Errno 54] Connection reset by peer
+[2026-03-01 16:04:03,695] [INFO] tcp_handler: Server connected to 127.0.0.1:5050
+[2026-03-01 16:04:04,196] [WARNING] tcp_handler: Read failure attempting reconnection. ConnectionResetError: [Errno 54] Connection reset by peer

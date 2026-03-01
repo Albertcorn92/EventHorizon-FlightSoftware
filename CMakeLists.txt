@@ -17,3 +17,6 @@ fprime_setup_included_code()
 
 # This includes project-wide objects
 add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Eventhorizon")
+add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/ProximityDriver/")
+add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/GncDeployment/")
+

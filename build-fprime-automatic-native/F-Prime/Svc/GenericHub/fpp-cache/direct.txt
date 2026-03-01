@@ -1,0 +1,6 @@
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/GenericHubCfg.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Drv/Interfaces/PassiveBufferDriverClient.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Buffer/Buffer.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Log/Log.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Tlm/Tlm.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/Interfaces/BufferAllocation.fpp

@@ -1,0 +1,6 @@
+[2026-03-01 14:43:38,908] [INFO] root: Logging system initialized!
+[2026-03-01 14:43:38,919] [INFO] comm: Starting uplinker/downlinker connecting to FSW using ip with space-packet-space-data-link
+[2026-03-01 14:43:38,919] [INFO] udp_handler: Server connected to 127.0.0.1:5000
+[2026-03-01 14:43:38,921] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
+[2026-03-01 14:43:39,425] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
+[2026-03-01 14:43:39,879] [INFO] tcp_handler: Server connected to 127.0.0.1:5000

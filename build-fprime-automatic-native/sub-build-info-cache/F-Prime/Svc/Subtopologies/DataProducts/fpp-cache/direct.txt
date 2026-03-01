@@ -1,0 +1,9 @@
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/Fpp/ToCpp.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/Svc/Subtopologies/DataProducts/DataProductsConfig/DataProductsConfig.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/ComCfg.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/DpCfg.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/FpConstants.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/BufferManager/BufferManager.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/DpCatalog/DpCatalog.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/DpManager/DpManager.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/DpWriter/DpWriter.fpp

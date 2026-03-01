@@ -1,0 +1,52 @@
+Hit Ctrl-C to quit
+EVENT: (16777216) (2:1772394347,555962) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000000 registered to port 0 slot 0
+EVENT: (16777216) (2:1772394347,556031) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000001 registered to port 0 slot 1
+EVENT: (16777216) (2:1772394347,556050) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000002 registered to port 0 slot 2
+EVENT: (16777216) (2:1772394347,556063) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1000003 registered to port 0 slot 3
+EVENT: (16777216) (2:1772394347,556075) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001000 registered to port 1 slot 4
+EVENT: (16777216) (2:1772394347,556087) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001002 registered to port 1 slot 5
+EVENT: (16777216) (2:1772394347,556098) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1001003 registered to port 1 slot 6
+EVENT: (16777216) (2:1772394347,556109) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002000 registered to port 2 slot 7
+EVENT: (16777216) (2:1772394347,556121) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002001 registered to port 2 slot 8
+EVENT: (16777216) (2:1772394347,556132) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1002002 registered to port 2 slot 9
+EVENT: (16777216) (2:1772394347,556143) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003000 registered to port 3 slot 10
+EVENT: (16777216) (2:1772394347,556154) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x1003001 registered to port 3 slot 11
+EVENT: (16777216) (2:1772394347,556165) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000000 registered to port 4 slot 12
+EVENT: (16777216) (2:1772394347,556177) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000001 registered to port 4 slot 13
+EVENT: (16777216) (2:1772394347,556188) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000002 registered to port 4 slot 14
+EVENT: (16777216) (2:1772394347,556198) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4000003 registered to port 4 slot 15
+EVENT: (16777216) (2:1772394347,556210) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4001000 registered to port 5 slot 16
+EVENT: (16777216) (2:1772394347,556220) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4002000 registered to port 6 slot 17
+EVENT: (16777216) (2:1772394347,556232) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001000 registered to port 7 slot 18
+EVENT: (16777216) (2:1772394347,556242) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001001 registered to port 7 slot 19
+EVENT: (16777216) (2:1772394347,556253) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5001002 registered to port 7 slot 20
+EVENT: (16777216) (2:1772394347,556264) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002000 registered to port 8 slot 21
+EVENT: (16777216) (2:1772394347,556275) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002001 registered to port 8 slot 22
+EVENT: (16777216) (2:1772394347,556285) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002002 registered to port 8 slot 23
+EVENT: (16777216) (2:1772394347,556296) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002003 registered to port 8 slot 24
+EVENT: (16777216) (2:1772394347,556307) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002004 registered to port 8 slot 25
+EVENT: (16777216) (2:1772394347,556317) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002005 registered to port 8 slot 26
+EVENT: (16777216) (2:1772394347,556328) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002006 registered to port 8 slot 27
+EVENT: (16777216) (2:1772394347,556339) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5002007 registered to port 8 slot 28
+EVENT: (16777216) (2:1772394347,556350) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003000 registered to port 9 slot 29
+EVENT: (16777216) (2:1772394347,556361) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003001 registered to port 9 slot 30
+EVENT: (16777216) (2:1772394347,556372) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x5003002 registered to port 9 slot 31
+EVENT: (16777216) (2:1772394347,556383) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004000 registered to port 10 slot 32
+EVENT: (16777216) (2:1772394347,556404) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004001 registered to port 10 slot 33
+EVENT: (16777216) (2:1772394347,556414) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004002 registered to port 10 slot 34
+EVENT: (16777216) (2:1772394347,556423) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004003 registered to port 10 slot 35
+EVENT: (16777216) (2:1772394347,556433) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004004 registered to port 10 slot 36
+EVENT: (16777216) (2:1772394347,556441) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004005 registered to port 10 slot 37
+EVENT: (16777216) (2:1772394347,556451) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004006 registered to port 10 slot 38
+EVENT: (16777216) (2:1772394347,556460) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10004007 registered to port 10 slot 39
+EVENT: (16777216) (2:1772394347,556469) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x10012000 registered to port 12 slot 40
+EVENT: (16789504) (2:1772394347,556481) ACTIVITY_LO: (version) FrameworkVersion : Framework Version: [v4.1.1]
+EVENT: (16789505) (2:1772394347,556498) ACTIVITY_LO: (version) ProjectVersion : Project Version: [ef106fd-dirty]
+[WARNING] proximityDriver high task priority of 49 clamped to 47
+EVENT: (268439552) (2:1772394347,556993) DIAGNOSTIC: (rateGroup1) RateGroupStarted : Rate group started.
+EVENT: (268447744) (2:1772394347,557019) DIAGNOSTIC: (rateGroup3) RateGroupStarted : Rate group started.
+EVENT: (268443648) (2:1772394347,557016) DIAGNOSTIC: (rateGroup2) RateGroupStarted : Rate group started.
+Connected to 127.0.0.1:5000 as a tcp client
+[WARNING] ReceiveTask failed to recv from port with status -8 and errno 0
+[WARNING] ReceiveTask failed to open port with status -4 and errno 61
+Exiting...

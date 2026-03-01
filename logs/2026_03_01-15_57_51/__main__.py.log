@@ -1,0 +1,15 @@
+[2026-03-01 15:57:52,626] [INFO] root: Logging system initialized!
+[2026-03-01 15:57:52,637] [INFO] transport: Outgoing connecting to: ipc:///tmp/fprime-server-in
+[2026-03-01 15:57:52,637] [INFO] transport: Incoming connecting to: ipc:///tmp/fprime-server-out
+[2026-03-01 15:58:06,620] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:06] code 400, message Bad request version ('`')
+[2026-03-01 15:58:07,622] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:07] code 400, message Bad request version ('tÈ?\x80\x00\x00\x10\x01')
+[2026-03-01 15:58:08,627] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:08] code 400, message Bad request version ('}^@à\x00\x00\x10\x01')
+[2026-03-01 15:58:09,632] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:09] code 400, message Bad request version ('\x91%A\x0e\x93\x03\x10\x01')
+[2026-03-01 15:58:11,634] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:11] code 400, message Bad request version ('¥\x0f?ýw!\x10\x01')
+[2026-03-01 15:58:12,638] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:12] code 400, message Bad request version ('«Q@>\x19Y\x10\x01')
+[2026-03-01 15:58:14,644] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:14] code 400, message Bad request version ('ÏCAP\x00\x00\x10\x01')
+[2026-03-01 15:58:15,648] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:15] code 400, message Bad request version ('Ò"A\x91t]\x10\x01')
+[2026-03-01 15:58:16,653] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:16] code 400, message Bad request version ('â\x7fAØ\x00\x01\x10\x01')
+[2026-03-01 15:58:18,659] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:18] code 400, message Bad request syntax ('\x04B')
+[2026-03-01 15:58:19,664] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:19] code 400, message Bad request version ('\x05\x00\x02\x00i¤¨j\x00')
+[2026-03-01 15:58:20,665] [ERROR] werkzeug: 127.0.0.1 - - [01/Mar/2026 15:58:20] code 400, message Bad request version ('\x07\x00\x02\x00i¤¨k\x00')

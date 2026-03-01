@@ -1,0 +1,2 @@
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Drv/LinuxUartDriver/Events.fppi
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Drv/LinuxUartDriver/Telemetry.fppi

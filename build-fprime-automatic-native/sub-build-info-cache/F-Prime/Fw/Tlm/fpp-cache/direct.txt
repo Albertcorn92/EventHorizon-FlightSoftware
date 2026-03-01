@@ -1,0 +1,2 @@
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/FpConfig.fpp
+/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Time/Time.fpp
