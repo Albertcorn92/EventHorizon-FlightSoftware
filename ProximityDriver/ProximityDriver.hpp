@@ -26,6 +26,9 @@ namespace GncDeployment {
     private:
       char m_lineBuffer[256];
       U32 m_lineIndex;
+
+      // Helper function for thruster calculation bounds
+      float constrain(float val, float minVal, float maxVal);
   };
 }
 #endif

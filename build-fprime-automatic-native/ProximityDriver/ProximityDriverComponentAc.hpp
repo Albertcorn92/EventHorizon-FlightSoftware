@@ -84,6 +84,10 @@ namespace GncDeployment {
         CHANNELID_SIGNAL_STRENGTH = 0x1, //!< Channel ID for Signal_Strength
         CHANNELID_X_ERROR = 0x2, //!< Channel ID for X_Error
         CHANNELID_Y_ERROR = 0x3, //!< Channel ID for Y_Error
+        CHANNELID_THRUST_TOP = 0x4, //!< Channel ID for Thrust_Top
+        CHANNELID_THRUST_BOTTOM = 0x5, //!< Channel ID for Thrust_Bottom
+        CHANNELID_THRUST_LEFT = 0x6, //!< Channel ID for Thrust_Left
+        CHANNELID_THRUST_RIGHT = 0x7, //!< Channel ID for Thrust_Right
       };
 
     public:
@@ -572,6 +576,30 @@ namespace GncDeployment {
       //! Write telemetry channel Y_Error
       void tlmWrite_Y_Error(
           F32 arg, //!< The telemetry value
+          Fw::Time _tlmTime = Fw::Time() //!< Timestamp. Default: unspecified, request from getTime port
+      ) const;
+
+      //! Write telemetry channel Thrust_Top
+      void tlmWrite_Thrust_Top(
+          U32 arg, //!< The telemetry value
+          Fw::Time _tlmTime = Fw::Time() //!< Timestamp. Default: unspecified, request from getTime port
+      ) const;
+
+      //! Write telemetry channel Thrust_Bottom
+      void tlmWrite_Thrust_Bottom(
+          U32 arg, //!< The telemetry value
+          Fw::Time _tlmTime = Fw::Time() //!< Timestamp. Default: unspecified, request from getTime port
+      ) const;
+
+      //! Write telemetry channel Thrust_Left
+      void tlmWrite_Thrust_Left(
+          U32 arg, //!< The telemetry value
+          Fw::Time _tlmTime = Fw::Time() //!< Timestamp. Default: unspecified, request from getTime port
+      ) const;
+
+      //! Write telemetry channel Thrust_Right
+      void tlmWrite_Thrust_Right(
+          U32 arg, //!< The telemetry value
           Fw::Time _tlmTime = Fw::Time() //!< Timestamp. Default: unspecified, request from getTime port
       ) const;
 

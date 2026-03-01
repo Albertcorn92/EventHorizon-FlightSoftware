@@ -1,3 +1,0 @@
-2026-03-01T16:05:43.701452,(2(0)-1772399143:701452),CdhCore.version.FrameworkVersion,16789504,EventSeverity.ACTIVITY_LO,Framework Version: [v4.1.1]
-2026-03-01T16:05:43.701459,(2(0)-1772399143:701459),CdhCore.version.ProjectVersion,16789505,EventSeverity.ACTIVITY_LO,Project Version: [ef106fd-dirty]
-2026-03-01T16:05:43.726574,(2(0)-1772399143:726574),GncDeployment.uartDriver.PortOpened,268521476,EventSeverity.ACTIVITY_HI,UART Device /dev/cu.usbmodem101 configured

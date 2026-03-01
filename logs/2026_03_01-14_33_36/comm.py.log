@@ -1,5 +1,0 @@
-[2026-03-01 14:33:36,581] [INFO] root: Logging system initialized!
-[2026-03-01 14:33:36,584] [INFO] comm: Starting uplinker/downlinker connecting to FSW using uart with space-packet-space-data-link
-[2026-03-01 14:33:36,602] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
-[2026-03-01 14:33:37,105] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
-[2026-03-01 14:33:50,101] [WARNING] serial_adapter: Serial exception caught: read failed: [Errno 6] Device not configured. Reconnecting.

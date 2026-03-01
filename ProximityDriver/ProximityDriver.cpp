@@ -2,6 +2,7 @@
 #include <Fw/Logger/Logger.hpp>
 #include <cstring>
 #include <cstdio>
+#include <cmath>
 
 namespace GncDeployment {
 
@@ -22,6 +23,14 @@ namespace GncDeployment {
     ready_handler(FwIndexType portNum)
   {
     Fw::Logger::log("[PROX] Ready signal received\n");
+  }
+
+  float ProximityDriver ::
+    constrain(float val, float minVal, float maxVal)
+  {
+    if (val < minVal) return minVal;
+    if (val > maxVal) return maxVal;
+    return val;
   }
 
   void ProximityDriver ::
@@ -73,10 +82,43 @@ namespace GncDeployment {
     int parsed = sscanf(line, "$GNC,%f,%f,%f,%f", &dist, &sig, &errX, &errY);
 
     if (parsed == 4) {
+      // Emit raw sensor data
       this->tlmWrite_Z_Distance(dist);
       this->tlmWrite_Signal_Strength(sig);
       this->tlmWrite_X_Error(errX);
       this->tlmWrite_Y_Error(errY);
+
+      // Thruster Calculation Logic (Mapped from v2.1 Sketch)
+      const float DEADZONE = 20.0f;
+      U32 tTop = 0, tBtm = 0, tLft = 0, tRgt = 0;
+
+      // Y-Axis Logic
+      if (std::abs(errY) > DEADZONE) {
+          float pwr = (std::abs(errY) - DEADZONE) * (90.0f / (250.0f - DEADZONE)) + 10.0f;
+          U32 thrustPwr = static_cast<U32>(constrain(pwr, 10.0f, 100.0f));
+          if (errY < -DEADZONE) {
+              tTop = thrustPwr;
+          } else {
+              tBtm = thrustPwr;
+          }
+      }
+
+      // X-Axis Logic
+      if (std::abs(errX) > DEADZONE) {
+          float pwr = (std::abs(errX) - DEADZONE) * (90.0f / (250.0f - DEADZONE)) + 10.0f;
+          U32 thrustPwr = static_cast<U32>(constrain(pwr, 10.0f, 100.0f));
+          if (errX < -DEADZONE) {
+              tLft = thrustPwr;
+          } else {
+              tRgt = thrustPwr;
+          }
+      }
+
+      // Emit Thruster Telemetry
+      this->tlmWrite_Thrust_Top(tTop);
+      this->tlmWrite_Thrust_Bottom(tBtm);
+      this->tlmWrite_Thrust_Left(tLft);
+      this->tlmWrite_Thrust_Right(tRgt);
     }
   }
 }

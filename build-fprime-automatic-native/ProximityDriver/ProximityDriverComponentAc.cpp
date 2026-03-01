@@ -1029,6 +1029,138 @@ namespace GncDeployment {
     }
   }
 
+  void ProximityDriverComponentBase ::
+    tlmWrite_Thrust_Top(
+        U32 arg,
+        Fw::Time _tlmTime
+    ) const
+  {
+    if (this->m_tlmOut_OutputPort[0].isConnected()) {
+      if (
+        this->m_timeCaller_OutputPort[0].isConnected() &&
+        (_tlmTime ==  Fw::ZERO_TIME)
+      ) {
+        this->m_timeCaller_OutputPort[0].invoke(_tlmTime);
+      }
+
+      Fw::TlmBuffer _tlmBuff;
+      Fw::SerializeStatus _stat = _tlmBuff.serializeFrom(arg);
+      FW_ASSERT(
+        _stat == Fw::FW_SERIALIZE_OK,
+        static_cast<FwAssertArgType>(_stat)
+      );
+
+      FwChanIdType _id;
+
+      _id = this->getIdBase() + CHANNELID_THRUST_TOP;
+
+      this->m_tlmOut_OutputPort[0].invoke(
+        _id,
+        _tlmTime,
+        _tlmBuff
+      );
+    }
+  }
+
+  void ProximityDriverComponentBase ::
+    tlmWrite_Thrust_Bottom(
+        U32 arg,
+        Fw::Time _tlmTime
+    ) const
+  {
+    if (this->m_tlmOut_OutputPort[0].isConnected()) {
+      if (
+        this->m_timeCaller_OutputPort[0].isConnected() &&
+        (_tlmTime ==  Fw::ZERO_TIME)
+      ) {
+        this->m_timeCaller_OutputPort[0].invoke(_tlmTime);
+      }
+
+      Fw::TlmBuffer _tlmBuff;
+      Fw::SerializeStatus _stat = _tlmBuff.serializeFrom(arg);
+      FW_ASSERT(
+        _stat == Fw::FW_SERIALIZE_OK,
+        static_cast<FwAssertArgType>(_stat)
+      );
+
+      FwChanIdType _id;
+
+      _id = this->getIdBase() + CHANNELID_THRUST_BOTTOM;
+
+      this->m_tlmOut_OutputPort[0].invoke(
+        _id,
+        _tlmTime,
+        _tlmBuff
+      );
+    }
+  }
+
+  void ProximityDriverComponentBase ::
+    tlmWrite_Thrust_Left(
+        U32 arg,
+        Fw::Time _tlmTime
+    ) const
+  {
+    if (this->m_tlmOut_OutputPort[0].isConnected()) {
+      if (
+        this->m_timeCaller_OutputPort[0].isConnected() &&
+        (_tlmTime ==  Fw::ZERO_TIME)
+      ) {
+        this->m_timeCaller_OutputPort[0].invoke(_tlmTime);
+      }
+
+      Fw::TlmBuffer _tlmBuff;
+      Fw::SerializeStatus _stat = _tlmBuff.serializeFrom(arg);
+      FW_ASSERT(
+        _stat == Fw::FW_SERIALIZE_OK,
+        static_cast<FwAssertArgType>(_stat)
+      );
+
+      FwChanIdType _id;
+
+      _id = this->getIdBase() + CHANNELID_THRUST_LEFT;
+
+      this->m_tlmOut_OutputPort[0].invoke(
+        _id,
+        _tlmTime,
+        _tlmBuff
+      );
+    }
+  }
+
+  void ProximityDriverComponentBase ::
+    tlmWrite_Thrust_Right(
+        U32 arg,
+        Fw::Time _tlmTime
+    ) const
+  {
+    if (this->m_tlmOut_OutputPort[0].isConnected()) {
+      if (
+        this->m_timeCaller_OutputPort[0].isConnected() &&
+        (_tlmTime ==  Fw::ZERO_TIME)
+      ) {
+        this->m_timeCaller_OutputPort[0].invoke(_tlmTime);
+      }
+
+      Fw::TlmBuffer _tlmBuff;
+      Fw::SerializeStatus _stat = _tlmBuff.serializeFrom(arg);
+      FW_ASSERT(
+        _stat == Fw::FW_SERIALIZE_OK,
+        static_cast<FwAssertArgType>(_stat)
+      );
+
+      FwChanIdType _id;
+
+      _id = this->getIdBase() + CHANNELID_THRUST_RIGHT;
+
+      this->m_tlmOut_OutputPort[0].invoke(
+        _id,
+        _tlmTime,
+        _tlmBuff
+      );
+    }
+  }
+
   // ----------------------------------------------------------------------
   // Time
   // ----------------------------------------------------------------------

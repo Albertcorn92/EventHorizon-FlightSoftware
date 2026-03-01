@@ -16,6 +16,12 @@ module GncDeployment {
         telemetry X_Error:         F32
         telemetry Y_Error:         F32
 
+        # New Thruster Telemetry Channels
+        telemetry Thrust_Top:      U32
+        telemetry Thrust_Bottom:   U32
+        telemetry Thrust_Left:     U32
+        telemetry Thrust_Right:    U32
+
         # Standard F Prime Boilerplate
         time get port timeCaller
 

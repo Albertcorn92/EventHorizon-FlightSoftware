@@ -2,3 +2,4 @@ build-artifacts/
 fprime-venv/
 gds-logs/
 *.pyc
+logs/
