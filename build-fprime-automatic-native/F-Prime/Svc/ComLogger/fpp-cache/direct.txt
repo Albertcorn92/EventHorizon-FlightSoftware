@@ -1,6 +1,0 @@
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Cmd/Cmd.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Com/Com.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Log/Log.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/ComLogger/Commands.fppi
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/ComLogger/Events.fppi
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/Ping/Ping.fpp

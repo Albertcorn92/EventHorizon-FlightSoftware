@@ -1,8 +1,0 @@
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/ComCfg.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Buffer/Buffer.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Log/Log.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Time/Time.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Tlm/Tlm.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/FileUplink/Events.fppi
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/FileUplink/Telemetry.fppi
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/Ping/Ping.fpp

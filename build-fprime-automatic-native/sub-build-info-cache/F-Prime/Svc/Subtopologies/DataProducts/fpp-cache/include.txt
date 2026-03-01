@@ -1,2 +1,0 @@
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/BufferManager/Events.fppi
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/BufferManager/Telemetry.fppi

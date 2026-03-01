@@ -1,7 +1,0 @@
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Buffer/Buffer.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Log/Log.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Time/Time.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Fw/Tlm/Tlm.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/BufferManager/Events.fppi
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/BufferManager/Telemetry.fppi
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/Sched/Sched.fpp

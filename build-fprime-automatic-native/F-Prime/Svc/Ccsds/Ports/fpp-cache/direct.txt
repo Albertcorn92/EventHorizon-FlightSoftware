@@ -1,2 +1,0 @@
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/build-fprime-automatic-native/F-Prime/default/config/ComCfg.fpp
-/Users/albertcornelius/Desktop/EventHorizon_V3/EventHorizon/lib/fprime/Svc/Ccsds/Types/Types.fpp

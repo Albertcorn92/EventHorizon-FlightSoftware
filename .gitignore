@@ -3,3 +3,6 @@ fprime-venv/
 gds-logs/
 *.pyc
 logs/
+build-fprime-*/
+GncDeployment/logs/
+logs/
